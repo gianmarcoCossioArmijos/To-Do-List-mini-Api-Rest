@@ -30,9 +30,15 @@ public class Tarea {
 	
 	public Tarea() {
 	}
-
+	
 	public Tarea(int id, String titulo, String descripcion, String estado) {
 		this.id = id;
+		this.titulo = titulo;
+		this.descripcion = descripcion;
+		this.estado = estado;
+	}
+
+	public Tarea(String titulo, String descripcion, String estado) {
 		this.titulo = titulo;
 		this.descripcion = descripcion;
 		this.estado = estado;

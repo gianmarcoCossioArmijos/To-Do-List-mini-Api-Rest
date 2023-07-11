@@ -69,6 +69,10 @@ public class Tarea {
 		return id;
 	}
 
+	public void setId(int id) {
+		this.id = id;
+	}
+
 	public String getEstado() {
 		return estado;
 	}
